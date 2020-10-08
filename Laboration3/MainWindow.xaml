@@ -51,7 +51,7 @@
                     <Label x:Name="NewPasswordPanelNewPasswordLabel" Content="New Password:"/>
                     <PasswordBox x:Name="NewPasswordPanelNewPassword" Width="180" Height="18"/>
                     <Label x:Name="NewPasswordPanelNewPasswordConfirmLabel" Content="Confirm New Password:"/>
-                    <PasswordBox x:Name="NewPasswordPanelNewPasswordConfirm"/>
+                    <PasswordBox x:Name="NewPasswordPanelNewPasswordConfirm" Width="180" Height="18"/>
                 </StackPanel>
                 <Button x:Name="NewPasswordSubmit" Content="Submit" Click="NewPasswordSubmit_Click" Width="60" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,10" Visibility="Collapsed"/>
                 <StackPanel x:Name="ChangeEmailPanel" Visibility="Collapsed">
